@@ -44,12 +44,12 @@ docker-compose up -d --build
 The backend API will be running on http://localhost:8001.
 
 ### 5. API Endpoints
-GET /api/courses: List all courses.
-POST /api/courses: Create a new course.
-GET /api/courses/<int:pk>: Retrieve course details.
-DELETE /api/courses/<int:pk>: Delete a course.
-GET /api/instances: List course instances.
-More detailed API documentation is available within the code.
+<br /> GET /api/courses: List all courses.
+<br /> POST /api/courses: Create a new course.
+<br /> GET /api/courses/<int:pk>: Retrieve course details.
+<br /> DELETE /api/courses/<int:pk>: Delete a course.
+<br /> GET /api/instances: List course instances.
+<br /> More detailed API documentation is available within the code.
 
 ### Testing
 To run tests:
@@ -63,7 +63,7 @@ This repository uses GitHub Actions for CI/CD. Docker images are automatically b
 The .github/workflows/docker-image.yml file is set up to automate the building and pushing of Docker images. Here's what it does:
 
 **Build the Docker Image:** The image is built based on the Dockerfile in the repository.
-**Push to DockerHub:** The image is then pushed to your DockerHub repository.
+<br /> **Push to DockerHub:** The image is then pushed to your DockerHub repository.
 
 ### Contributing
 Feel free to fork this repository and submit pull requests. All contributions are welcome!
