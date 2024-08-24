@@ -41,7 +41,7 @@ DATABASE_URL=postgres://username:password@host:port/database_name
 docker-compose up -d --build
 ```
 ### 4. Access the Application
-The backend API will be running on http://localhost:8000.
+The backend API will be running on http://localhost:8001.
 
 ### 5. API Endpoints
 GET /api/courses: List all courses.
