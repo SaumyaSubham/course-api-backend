@@ -65,5 +65,5 @@ The .github/workflows/docker-image.yml file is set up to automate the building a
 - **Build the Docker Image:** The image is built based on the Dockerfile in the repository.
 - **Push to DockerHub:** The image is then pushed to your DockerHub repository.
 
-### Contributing
+### Contributions
 Feel free to fork this repository and submit pull requests. All contributions are welcome!
