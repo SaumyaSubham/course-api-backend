@@ -44,7 +44,7 @@ docker-compose up -d --build
 The backend API will be running on http://localhost:8001.
 
 ### 5. API Endpoints
-<br /> GET /api/courses: List all courses.
+GET /api/courses: List all courses.
 <br /> POST /api/courses: Create a new course.
 <br /> GET /api/courses/<int:pk>: Retrieve course details.
 <br /> DELETE /api/courses/<int:pk>: Delete a course.
