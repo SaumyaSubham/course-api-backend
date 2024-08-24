@@ -38,7 +38,8 @@ DATABASE_URL=postgres://username:password@host:port/database_name
 
 ### 3. Build and Run with Docker
 bash
-```docker-compose up -d --build
+```
+docker-compose up -d --build
 ```
 ### 4. Access the Application
 The backend API will be running on http://localhost:8000.
