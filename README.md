@@ -62,8 +62,8 @@ This repository uses GitHub Actions for CI/CD. Docker images are automatically b
 ### GitHub Actions Workflow
 The .github/workflows/docker-image.yml file is set up to automate the building and pushing of Docker images. Here's what it does:
 
-**Build the Docker Image:** The image is built based on the Dockerfile in the repository.
-<br /> **Push to DockerHub:** The image is then pushed to your DockerHub repository.
+- **Build the Docker Image:** The image is built based on the Dockerfile in the repository.
+- **Push to DockerHub:** The image is then pushed to your DockerHub repository.
 
 ### Contributing
 Feel free to fork this repository and submit pull requests. All contributions are welcome!
