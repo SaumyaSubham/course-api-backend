@@ -32,10 +32,11 @@ cd course-api-backend
 ```
 ### 2. Set Up Environment Variables
 Create a .env file in the root of the project to define environment-specific variables.
+```
 DEBUG=True
 SECRET_KEY=your-secret-key
 DATABASE_URL=postgres://username:password@host:port/database_name
-
+```
 ### 3. Build and Run with Docker
 bash
 ```
