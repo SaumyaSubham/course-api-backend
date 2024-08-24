@@ -1,4 +1,4 @@
-#### course-api-backend
+# course-api-backend
 
 ### Overview
 
