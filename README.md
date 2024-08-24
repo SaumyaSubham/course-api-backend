@@ -25,7 +25,6 @@ This repository contains the backend of the Course Management System, built usin
 ### Getting Started
 
 ### 1. Clone the Repository
-bash
 ```
 git clone https://github.com/your-username/course-api-backend.git
 cd course-api-backend 
@@ -38,7 +37,6 @@ SECRET_KEY=your-secret-key
 DATABASE_URL=postgres://username:password@host:port/database_name
 ```
 ### 3. Build and Run with Docker
-bash
 ```
 docker-compose up -d --build
 ```
@@ -55,7 +53,6 @@ More detailed API documentation is available within the code.
 
 ### Testing
 To run tests:
-bash
 ```
 docker-compose exec backend python manage.py test
 ```
